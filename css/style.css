@@ -57,7 +57,6 @@ header a{
 }
 
 .aperture_studio{
-    padding-bottom: 41px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -69,7 +68,7 @@ header a{
 }
 .content_holder{
     max-width: 580px;
-    padding-bottom: 31px;
+    padding-bottom: 71px;
 }
 .aperture_studio .content_holder h3{
     font-family: 'Poppins';
@@ -124,6 +123,8 @@ header a{
     background-image: url(../images/exposure.svg);
     background-size: cover;
     margin-right: 6px;
+    position: relative;
+    top: 6px;
 }
 .parameters li:nth-child(2)::before{
     content: '';
@@ -133,6 +134,8 @@ header a{
     background-image: url(../images/focus.svg);
     background-size: cover;
     margin-right: 6px;
+    position: relative;
+    top: 6px;
 }
 .parameters li:nth-child(3)::before{
     content: '';
@@ -142,6 +145,8 @@ header a{
     background-image: url(../images/iso.svg);
     background-size: cover;
     margin-right: 7px;
+    position: relative;
+    top: 6px;
 }
 .parameters li:last-of-type::before{
     content: '';
@@ -151,4 +156,6 @@ header a{
     background-image: url(../images/Fill-1.svg);
     background-size: cover;
     margin-right: 5px;
+    position: relative;
+    top: 6px;
 }
