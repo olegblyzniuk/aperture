@@ -279,3 +279,41 @@ header a{
     line-height: 20px;
     color: #C0C0C0;
 }
+
+.monstera{
+    min-height: 600px;
+    padding: 0 40px 40px 0;
+    background-image: url(../images/mostera.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.monstera .description{
+    width: 273px;
+    margin-right: 47px;
+}
+.monstera .parameters{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.monstera .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.monstera .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
