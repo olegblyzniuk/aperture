@@ -241,3 +241,41 @@ header a{
     background-color: #000000;
     margin-right: 6px;
 }
+
+.sunset{
+    min-height: 600px;
+    padding: 0 40px 40px 0;
+    background-image: url(../images/sunset.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.sunset .description{
+    width: 298px;
+    margin-right: 22px;
+}
+.sunset .parameters{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.sunset .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
