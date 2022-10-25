@@ -65,10 +65,11 @@ header a{
     background-position: center center;
     height: 100vh;
     position: relative;
+    padding-bottom: 41px;
 }
 .content_holder{
     max-width: 580px;
-    padding-bottom: 71px;
+    padding-bottom: 30px;
 }
 .aperture_studio .content_holder h3{
     font-family: 'Poppins';
@@ -114,6 +115,8 @@ header a{
     line-height: 12px;
     color: #FFFFFF;
     margin-right: 16px;
+    display: flex;
+    align-items: flex-start;
 }
 .parameters li:first-of-type::before{
     content: '';
@@ -123,8 +126,6 @@ header a{
     background-image: url(../images/exposure.svg);
     background-size: cover;
     margin-right: 6px;
-    position: relative;
-    top: 6px;
 }
 .parameters li:nth-child(2)::before{
     content: '';
@@ -134,8 +135,6 @@ header a{
     background-image: url(../images/focus.svg);
     background-size: cover;
     margin-right: 6px;
-    position: relative;
-    top: 6px;
 }
 .parameters li:nth-child(3)::before{
     content: '';
@@ -145,8 +144,6 @@ header a{
     background-image: url(../images/iso.svg);
     background-size: cover;
     margin-right: 7px;
-    position: relative;
-    top: 6px;
 }
 .parameters li:last-of-type::before{
     content: '';
@@ -156,6 +153,91 @@ header a{
     background-image: url(../images/Fill-1.svg);
     background-size: cover;
     margin-right: 5px;
+}
+
+.what_we_do{
+    padding: 112px 0 100px;
+    background: #000000;
+}
+.what_we_do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.what_we_do .d_flex{
+    flex-wrap: wrap;
+}
+.area_card{
+    max-width: 576px;
     position: relative;
-    top: 6px;
+    margin-bottom: 16px;
+}
+.area_card img{
+    width: 100%;
+}
+.area_card .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.area_card .description h4{
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.area_card .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 16px;
+}
+.area_card .description a{
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.area_card .description a::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-right: 6px;
 }
