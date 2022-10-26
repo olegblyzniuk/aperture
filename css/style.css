@@ -20,6 +20,9 @@ body{
 header{
     padding: 24px 0;
     background: #181818;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
 header a{
     display: inline-block;
@@ -156,7 +159,7 @@ header a{
 }
 
 .what_we_do{
-    padding: 112px 0 100px;
+    padding: 112px 0 84px;
     background: #000000;
 }
 .what_we_do h2{
@@ -194,6 +197,7 @@ header a{
     position: absolute;
     bottom: 30px;
     left: 30px;
+    right: 30px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -280,6 +284,85 @@ header a{
     color: #C0C0C0;
 }
 
+.tools{
+    padding: 173px 0 40px;
+    position: relative;
+    background: #000000;
+}
+.tools .tools_content{
+    max-width: 1168px;
+    margin: auto;
+    padding-bottom: 113px;
+}
+.tools .tools_content h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.tools .tools_content h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.tools .tools_content p{
+    max-width: 514px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.tools .tools_content a{
+    width: 152px;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.tools .tools_content a::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #000000;
+    margin-right: 6px;
+}
+.tools .section_img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/tools.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tools .parameters{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
 .monstera{
     min-height: 600px;
     padding: 0 40px 40px 0;
@@ -310,6 +393,44 @@ header a{
     color: #FFFFFF;
 }
 .monstera .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.starfall{
+    min-height: 600px;
+    padding: 0 40px 40px 0;
+    background-image: url(../images/starfall.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.starfall .description{
+    width: 254px;
+    margin-right: 66px;
+}
+.starfall .parameters{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.starfall .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.starfall .description p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
