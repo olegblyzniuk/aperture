@@ -245,7 +245,75 @@ header a{
     background-color: #000000;
     margin-right: 6px;
 }
-#accordion .ui-accordion
+.ui-widget-content{
+    background-color: #000000;
+    border: none;
+}
+.ui-accordion .ui-accordion-content {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    border: none;
+}
+.ui-icon{
+    width: 20px;
+    height: 20px;
+}
+.ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: none;
+}
+@keyframes slide_left {
+    0%{
+        left: -15px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-icon, .ui-widget-content .ui-icon{
+   background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: -10px;
+    display: inline-block;
+    transform: rotate(90deg);
+    animation: slide_left 1s infinite;
+    
+}
+.ui-accordion .ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(0deg);
+    top: -5px;
+    animation: slide 1s infinite;
+
+}
+.ui-icon:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f078";
+    width: 20px;
+    height: 20px;
+}
+@keyframes slide {
+    0%{
+        top: -15px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(0deg);
+    top: -5px;
+    animation: slide 1s infinite;
+}
 
 .sunset{
     min-height: 600px;
@@ -400,6 +468,57 @@ header a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+
+.clients{
+    padding: 113px 0 100px;
+    text-align: center;
+    background: #000000;
+}
+.clients h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.clients h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.clients .d_flex{
+    padding: 0 46px;
+}
+.clients .d_flex a{
+    display: block;
+}
+.clients .d_flex a img{
+    max-width: 128px;
+    display: inline-block;
+}
+.owl-carousel .owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients .owl-carousel .owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 5px;
+}
+.clients .owl-carousel .active span{
+    background-color: #1e7096;
 }
 
 .starfall{
