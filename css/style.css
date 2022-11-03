@@ -568,26 +568,6 @@ body{
     margin-right: 6px;
 }
 
-footer{
-    padding: 100px 0;
-    background: #000000;
-}
-footer ul{
-    list-style: none;
-}
-footer .footer_top{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.areas{
-    padding-right: 40px;
-    max-width: 221px;
-}
-.pages{
-    padding-right: 102px;
-    max-width: 221px
-}
 
 
 

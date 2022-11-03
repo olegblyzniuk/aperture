@@ -1,0 +1,83 @@
+<footer>
+    <div class="container">
+        <div class="footer_top">
+            <div class="footer_top_content">
+                <a href="#">
+                    <img src="images/aperture_logo.svg" alt="aperture_logo">
+                </a>
+                <p>Photographers & videographers capturing the world around us.</p>
+            </div>
+            <div class="areas">
+                    <h5>Business areas</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Product Photography</a>
+                        </li>
+                        <li>
+                            <a href="#">Architecture Photography</a>
+                        </li>
+                        <li>
+                            <a href="#">Drone Photography</a>
+                        </li>
+                        <li>
+                            <a href="#">Wildlife Photography</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="pages">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Gear cage</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured images</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Style guide</a>
+                        </li>
+                        <li>
+                            <a href="#">Instructions</a>
+                        </li>
+                        <li>
+                            <a href="#">Changelog</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="footer_subscribe">
+
+        </div>
+        <div class="footer_bottom">
+
+        </div>
+    </div>
+</footer>
+
+
+/*styles footer */
+
+
+footer{
+    padding: 100px 0;
+    background: #000000;
+}
+footer ul{
+    list-style: none;
+}
+footer .footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.areas{
+    padding-right: 40px;
+    max-width: 221px;
+}
+.pages{
+    padding-right: 102px;
+    max-width: 221px
+}
