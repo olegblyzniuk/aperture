@@ -16,32 +16,35 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<header>
-    <div class="container d_flex">
-        <a href="#">
-            <img src="images/aperture_logo.svg" alt="aperture_logo">
-        </a>
-        <nav>
-        <ul class="nav_list">
-            <li>
-                <a href="#">Business areas</a>
-            </li>
-            <li>
-                <a href="#">Featured images</a>
-            </li>
-            <li>
-                <a href="#">Gear cage</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Get template</a>
-            </li>
-        </ul>
-        </nav>
-    </div>
-</header>
+    <header class="cd-header">
+		<div class="container d_flex">
+			<a href="#" class="logo_link">
+                <img src="images/aperture_logo.svg" alt="aperture_logo">
+            </a>
+			<div class="nav-but-wrap">
+				<div class="menu-icon hover-target">
+					<span class="menu-icon__line menu-icon__line-left"></span>
+					<span class="menu-icon__line"></span>
+					<span class="menu-icon__line menu-icon__line-right"></span>
+				</div>					
+			</div>
+            <div class="nav">
+                <div class="nav__content">
+                    <ul class="nav__list">
+                        <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+                        <li class="nav__list-item"><a href="#" class="hover-target">Get template</a></li>
+                    </ul>
+                </div>
+            </div>							
+		</div>				
+	</header>
+	
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div>
 
 <main>
 
@@ -221,7 +224,74 @@
     </ul>
 </section>
 
+<section class="get_in_touch">
+    <div class="container">
+        <h3>Need help with photography or videography?</h3>
+        <h4>We're here for you!</h4>
+        <a href="#">Get in touch</a>    
+    </div>
+</section>
+
 </main>
+
+<footer>
+    <div class="container">
+        <div class="footer_top">
+            <div class="footer_top_content">
+                <a href="#">
+                    <img src="images/aperture_logo.svg" alt="aperture_logo">
+                </a>
+                <p>Photographers & videographers capturing the world around us.</p>
+            </div>
+            <div class="areas">
+                    <h5>Business areas</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Product Photography</a>
+                        </li>
+                        <li>
+                            <a href="#">Architecture Photography</a>
+                        </li>
+                        <li>
+                            <a href="#">Drone Photography</a>
+                        </li>
+                        <li>
+                            <a href="#">Wildlife Photography</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="pages">
+                    <h5>Pages</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Gear cage</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured images</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Style guide</a>
+                        </li>
+                        <li>
+                            <a href="#">Instructions</a>
+                        </li>
+                        <li>
+                            <a href="#">Changelog</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="footer_subscribe">
+
+        </div>
+        <div class="footer_bottom">
+
+        </div>
+    </div>
+</footer>
 <script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js">
 </script>
