@@ -1,0 +1,66 @@
+.aperture_studio .content_holder h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 18px;
+}
+
+.what_we_do h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+
+.area_card .description {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.area_card h4 {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 16px;
+}
+
+.area_card .description a {
+  background: #FFF;
+  border-radius: 14px;
+  padding: 5px 10px 5px 4px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+.area_card .description a:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #000000;
+  margin-right: 6px;
+}/*# sourceMappingURL=style_preproc.css.map */

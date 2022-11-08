@@ -1,0 +1,75 @@
+$main_font: 'Poppins', sans-serif;
+$white: #FFF;
+$main_color: #181818;
+
+.aperture_studio .content_holder h1{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: $white;
+    margin-bottom: 18px;
+}
+.what_we_do{ 
+    h2{
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: $white;
+    margin-bottom: 15px;
+    }
+}
+.area_card{
+    .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    h4{
+        width: 100%;
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 16px;
+    }
+}
+.area_card {
+    .description{
+         a{
+        background: $white;
+        border-radius: 14px;
+        padding: 5px 10px 5px 4px;
+        display: flex;
+        align-items: center;
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.4px;
+        color: #000000;
+        &:before{
+            content: '';
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #000000;
+        margin-right: 6px;
+            }
+        }
+    }
+}
